@@ -2,6 +2,6 @@
 
 [Tutorial by Joy Shaheb from freeCodeCamp](https://www.freecodecamp.org/news/react-mortgage-calculator-tutorial-for-beginners/)
 
-[Final work]()
+[Final work](https://mortgage-calculator-khaki.vercel.app/)
 
-![ScreenShot](./public/screenshoot1.png)
+![ScreenShot](./public/screen_video.gif)
