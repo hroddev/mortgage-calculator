@@ -11,7 +11,7 @@ const SliderSelect = ({ data, setData }) => {
             ...data,
             homeValue: value.toFixed(0),
             downPayment: (0.2 * value).toFixed(0),
-            loanPayment: (0.8 * value).toFixed(0),
+            loanAmount: (0.8 * value).toFixed(0),
           });
         }}
         defaultValue={data.homeValue}
@@ -28,7 +28,7 @@ const SliderSelect = ({ data, setData }) => {
           setData({
             ...data,
             downPayment: value.toFixed(0),
-            loanPayment: (data.homeValue - value).toFixed(0),
+            loanAmount: (data.homeValue - value).toFixed(0),
           });
         }}
         defaultValue={data.downPayment}
@@ -44,7 +44,7 @@ const SliderSelect = ({ data, setData }) => {
         onChange={(e, value) => {
           setData({
             ...data,
-            loanPayment: value.toFixed(0),
+            loanAmount: value.toFixed(0),
             downPayment: (data.homeValue - value).toFixed(0),
           });
         }}
